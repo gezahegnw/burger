@@ -1,4 +1,6 @@
 // Dependencies
+
+// Dependencies
 var connection = require("./connection.js");
 
 // Object Relational Mapper

@@ -6,13 +6,13 @@
 	<div id="create-burger">
 		<form action="/" method="POST">
 			<input id="burger-name" type="text" name="burger_name" placeholder="Create a burger">
-			<button id="submit-btn" type="submit">Manifest</button>
+			<button id="submit-btn" type="submit">Add burgers</button>
 		</form>
 	</div>
 
 	<section id="burgers-container">
 		<div id="burgers-available">
-			<h2>Burgers Available</h2>
+			<h2>Available Burgers</h2>
 			{{#each burgers}}
 				{{#unless this.devoured}}
 				  <div class="burger">
