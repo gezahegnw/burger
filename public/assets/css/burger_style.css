@@ -1,28 +1,28 @@
 body {
-	color: #333;
+	color: rgb(255, 255, 255);
 	font-family: Helvetica, Arial, sans-serif;
 	margin: 0;
-	background: #eee;
+	background: rgb(185, 181, 181);
 }
-
+/*
 header {
-	background: #333;
+	background: rgb(255, 211, 211);
 	margin: 0;
 	height: 60px;
 	display: flex;
 	align-items: center;
 }
-
+*/
 h1 {
 	margin: 0 0 0 100px;
-	color: #fff;
+	color: rgb(2, 1, 1);
 	font-size: 30px;
 }
 
 span {
 	font-size: 0.85em;
-	background: #B31B1B;
-	color: white;
+	background: rgb(65, 129, 212);
+	color:whitesmoke;
 	padding: 3px 5px 3px 5px;
 	border-radius: 4px;
 	margin-left: 5px;
@@ -43,19 +43,19 @@ button {
 #burgers-available {
 	flex-grow: 1;
 	padding: 0.5em 2em 1.7em 2em;
-	background: #71BC78;
+	background: rgb(175, 182, 176);
 	margin: 1em 1em 1em 0;
 }
 
 #burgers-devoured {
 	flex-grow: 1;
-	background: #333;
+	background: rgb(245, 225, 225);
 	padding: 0.5em 2em 1.7em 2em;
 	margin: 1em 0 1em 1em;
 }
 
 #burgers-devoured h2, #burgers-devoured div {
-	color: #ddd;
+	color: rgb(20, 17, 17);
 }
 
 .wrapper {
