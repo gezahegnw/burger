@@ -1,24 +1,67 @@
-// Import the ORM to create functions that will interact with the database.
-var orm = require("../config/orm.js");
+body {
+ background-color: dimgrey;
+  text-align: center;
+}
 
-var burger = {
-  selectAll: function(cb) {
-    orm.selectAll("burgers", function(res) {
-      cb(res);
-    });
-  },
-  // The variables cols and vals are arrays.
-  insertOne: function(cols, vals, cb) {
-    orm.insertOne("burgers", cols, vals, function(res) {
-      cb(res);
-    });
-  },
-  updateOne: function(objColVals, condition, cb) {
-    orm.updateOne("burgers", objColVals, condition, function(res) {
-      cb(res);
-    });
-  },
-};
+#banner {
+  background-color: rgb(157, 217, 228);
+  border: 2px solid rgb(104, 105, 105);
+}
+/*
+#burger-pic {
+  width: 100px;
+}
+*/
+.box{
+  color: rgb(87, 24, 40);
+  font-size: 20px;
+}
+#small-burger {
+  width: 20px;
+}
 
-// Export the database functions for the controller (burgersController.js).
-module.exports = burger;
+h1 {
+  color: dimgray;
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+  background-color: white;
+  color:rgb(8, 8, 8);
+}
+
+ul {
+  padding: 5px;
+  margin: 15px;
+  background: #725735;
+  font-size: 18px;
+  color: blue;
+}
+
+button {
+  background-color: rgb(58, 139, 231);
+  color: white;
+}
+button:hover{
+  background-color: red;
+}
+.label {
+  font-weight: bold;
+}
+
+.container {
+  padding: 5px;
+  margin: 20px;
+  background: rgb(88, 65, 65);
+  align-content: center;
+  opacity: .9;
+  width: 100%;
+}
+
+.order-container {
+  padding: 15px;
+  margin: 25px;
+  align-content: center;
+  width: 100%;
+}
