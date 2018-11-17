@@ -9,9 +9,10 @@ When the user clicks the Devour! button, the burger will move to the right side 
 
 ### Deployment
 
-heroku link 
+heroku link  https://fierce-ocean-96074.herokuapp.com/
 
-github link 
+github link https://github.com/gezahegnw/burger
+
 
 ### Technologies used to bulild this app
 MySQL
